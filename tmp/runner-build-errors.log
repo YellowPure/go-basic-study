@@ -1,0 +1,5 @@
+# go-basic-study
+./rpc.go:22:6: main redeclared in this block
+	previous declaration at ./main.go:47:6
+./rpc.go:25:9: cannot use cal.Square(12, result) (type error) as type Result in assignment
+./rpc.go:25:22: cannot use result (type Result) as type *Result in argument to cal.Square

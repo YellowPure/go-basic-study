@@ -1,0 +1,11 @@
+<html>
+  <head>
+    <title>{{.title}}</title>
+  </head>
+  <body>
+    <h1>{{.title}}</h1>
+    {{range $index, $ele := .stuArr}}
+    <p>{{$index}}: {{$ele.Name}} Age is {{$ele.Age}}</p>
+    {{end}}
+  </body>
+</html>
